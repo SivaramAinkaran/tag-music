@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="5LUUpCfEgT1vj_qhK8TH">
+    <mxGraphModel dx="542" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q11emu35SjgTzYGHHLy8-4" edge="1" parent="1" source="Q11emu35SjgTzYGHHLy8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q11emu35SjgTzYGHHLy8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Download Playlist with yt_dl.py" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-6" edge="1" parent="1" source="Q11emu35SjgTzYGHHLy8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q11emu35SjgTzYGHHLy8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-19" edge="1" parent="1" source="Q11emu35SjgTzYGHHLy8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q11emu35SjgTzYGHHLy8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;get_mp3_data&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Get MP3 filenames of all MP3 files in directory (Walk directory, not just base directory)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Args&lt;/u&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;dir (str): &lt;/i&gt;director to walk and get filenames&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="210" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-23" edge="1" parent="1" source="Q11emu35SjgTzYGHHLy8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q11emu35SjgTzYGHHLy8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;create_itunes_query&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Refactors file name to use for Itunes API query&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="780" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-13" edge="1" parent="1" source="Q11emu35SjgTzYGHHLy8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Q11emu35SjgTzYGHHLy8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Filename from get_mp3_data" vertex="1">
+          <mxGeometry height="10" width="90" x="590" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-17" edge="1" parent="1" source="Q11emu35SjgTzYGHHLy8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Q11emu35SjgTzYGHHLy8-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="325.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q11emu35SjgTzYGHHLy8-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="query to save in df" vertex="1">
+          <mxGeometry height="40" width="90" x="590" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
